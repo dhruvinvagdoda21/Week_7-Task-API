@@ -1,0 +1,4 @@
+node_modules/
+.env
+logs/
+evals/last-run.json

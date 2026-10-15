@@ -1,0 +1,21 @@
+{
+  "name": "task-api",
+  "version": "1.0.0",
+  "description": "Task API with an LLM triage endpoint (Express + Zod)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --env-file=.env server.js",
+    "hello": "node --env-file=.env src/llm/hello.js",
+    "eval": "node --env-file=.env evals/run.js",
+    "test": "node test/run-tests.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.3.0",
+    "openai": "^7.34.0",
+    "swagger-ui-express": "^5.0.1",
+    "zod": "^4.6.7"
+  }
+}
